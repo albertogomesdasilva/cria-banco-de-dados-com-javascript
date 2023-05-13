@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+const Sequelize = require('sequelize')
 var banco = "banco-de-dados"
 
 const connection = mysql.createConnection({
